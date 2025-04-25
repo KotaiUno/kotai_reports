@@ -13,7 +13,7 @@
     <button style="background-color: #4CAF50; color: white; padding: 10px 20px; 
     border: none; border-radius: 8px; cursor: pointer; margin-bottom: 10px;">Kotai Balance Report</button>
 </a>
-<p>Report date: 25/04/2025 08:58:53</p>
+<p>Report date: 25/04/2025 09:01:05</p>
 <table>
 <tr>
     <th>Network</th>
@@ -57,9 +57,9 @@ const chart = new Chart(ctx, {
                         let i = ctx.dataIndex;
                         return [
                             'Total: ' + ctx.parsed.y.toFixed(2),
-                            '105-Silver: ' + qtd105[i] + ' tx / ' + val105[i].toFixed(2),
-                            '510-Gold: ' + qtd510[i] + ' tx / ' + val510[i].toFixed(2),
-                            '1020-Diamond: ' + qtd1020[i] + ' tx / ' + val1020[i].toFixed(2)
+                            '105-Silver: ' + qtd105[i] + 'x / ' + val105[i].toFixed(2),
+                            '510-Gold: ' + qtd510[i] + 'x / ' + val510[i].toFixed(2),
+                            '1020-Diamond: ' + qtd1020[i] + 'x / ' + val1020[i].toFixed(2)
                         ];
                     }
                 }
@@ -97,9 +97,9 @@ const chart2 = new Chart(ctx2, {
                         let i = ctx.dataIndex;
                         return [
                             'Total: ' + ctx.parsed.y.toFixed(2),
-                            '105-Silver: ' + [24, 177, 28][i] + ' tx / ' + [2520.0, 18585.0, 2940.0][i].toFixed(2),
-                            '510-Gold: ' + [3, 32, 8][i] + ' tx / ' + [1530.0, 16320.0, 4080.0][i].toFixed(2),
-                            '1020-Diamond: ' + [2, 233, 22][i] + ' tx / ' + [2040.0, 237660.0, 22440.0][i].toFixed(2)
+                            '105-Silver: ' + [24, 177, 28][i] + 'x / ' + [2520.0, 18585.0, 2940.0][i].toFixed(2),
+                            '510-Gold: ' + [3, 32, 8][i] + 'x / ' + [1530.0, 16320.0, 4080.0][i].toFixed(2),
+                            '1020-Diamond: ' + [2, 233, 22][i] + 'x / ' + [2040.0, 237660.0, 22440.0][i].toFixed(2)
                         ];
                     }
                 }
